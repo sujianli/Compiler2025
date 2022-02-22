@@ -1,9 +1,7 @@
 ---
-name: Evil Kevin
+name: Dawei Zhu
 role: Teaching Assistant
-email: me@example.com
-website: https://kevinl.info
+email: zhudawei@pku.edu.cn
 photo: kevin.jpg
 ---
 
-I like teaching Computer Science!

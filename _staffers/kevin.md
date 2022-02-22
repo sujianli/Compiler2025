@@ -1,8 +1,8 @@
 ---
-name: Kevin Lin
+name: Sujian Li
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
+email: lisujian@pku.edu.cn
+website: http://123.56.88.210/
 photo: kevin.jpg
 ---
 
