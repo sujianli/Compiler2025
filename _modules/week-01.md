@@ -1,10 +1,9 @@
 ---
-title: Introduction to Java
+title: 课程介绍
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Feb. 28
+: [编译程序概述](https://www.baidu.com/)
 
 Sep 29
 : **Section**{: .label .label-purple }[Intro to Java](#)
