@@ -2,16 +2,15 @@
 title: 课程介绍
 ---
 
-Feb. 28
-: [编译程序概述](https://www.baidu.com/)
+Feb. 22
+: [编译程序概述](../assets/ppts/BY201202-01.pdf)
 
 Sep 29
 : **Section**{: .label .label-purple }[Intro to Java](#)
   : [Solution](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Feb. 25
+: [实习任务介绍](#)
 
 Oct 1
 : **Lab**{: .label .label-purple } [Intro to Java](#)
