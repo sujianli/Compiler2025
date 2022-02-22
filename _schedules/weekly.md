@@ -23,7 +23,7 @@ schedule:
       - name: Lecture
         start: 10:10 AM
         end: 12:00 PM
-        location: 文史楼 110 （单周）
+        location: 文史楼 110
   - name: Wednesday
   - name: Thursday
   - name: Friday
@@ -31,5 +31,5 @@ schedule:
       - name: Lecture
         start: 10:10 AM
         end: 12:00 PM
-        location: 文史楼 110
+        location: 文史楼 110（单周）
 ---
