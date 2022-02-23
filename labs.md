@@ -18,8 +18,8 @@ description: Listing of course modules and topics.
 ### Lex & Yacc
 Lex和Yacc是最流行的对目标语言进行词法分析和语法分析的工具。其详细使用说明可参考当前目录下的 [lex&yacc_manual.pdf](./assets/lex&yacc_manual.pdf) 文件。**注意**：由于lex和yacc是由c语言实现的，而在本次实习中我们统一使用Python语言，因此在实际操作中我们用python包PLY（见下）来实现同样的功能，对于lex和yacc的具体使用只需简单了解即可。
 ### PLY
-Python包PLY提供了对Lex和Yacc的纯Python实现。本次实习推荐使用3.11版本的PLY包。其安装过程如下：
-1. 下载当前目录下的ply-3.11.zip文件
+Python包PLY提供了对Lex和Yacc的纯Python实现。本次实习推荐使用ply-3.11。其安装过程如下：
+1. 下载[ply-3.11.zip](./assets/ply-3.11.zip)
 2. 解压此zip文件
 3. 打开终端（即windows电脑的cmd/powershell，或mac电脑的terminal），进入文件夹ply-3.11中
 4. 执行如下指令：python setup.py install
@@ -28,14 +28,16 @@ Python包PLY提供了对Lex和Yacc的纯Python实现。本次实习推荐使用3
 PLY包的详细使用说明参见[以下链接](https://www.dabeaz.com/ply/ply.html)。
 ## Ⅱ） 实习1：简易计算器
 ### 任务描述
-借助PLY包实现一个简易的计算器，支持加减乘除、括号、幂运算。所有测试数据见当前目录下的[test_calc.zip](#)文件。
+借助PLY包实现一个简易的计算器，支持加减乘除、括号、幂运算。所有测试数据见[test_calc.zip](#)文件。
 ### 样例输入与输出
+
 |  输入   | 输出  |
 |  :----:  | :----:  |
 | 1+5-2+7  | 11 |
 | 3\*5+5\*9+60/2  | 90 |
 | 6*(5+7)+18/(4/2)*3  | 99 |
 | (5+7)^(6/3)  | 144 |
+
 ### 评分标准
 1. （40%）实现非负整数的加减运算（不含括号）
 2. （60%）实现非负整数的加减乘除运算（不含括号）
@@ -53,7 +55,6 @@ PLY包的详细使用说明参见[以下链接](https://www.dabeaz.com/ply/ply.h
 下面给出简化C语言的完整语法，其中以大写字母开头的为非终结符，其它均为终结符。
 
 ```ebnf
-
 Function        ::= Type identifier "(" ArgList ")" CompoundStmt
                     | Type identifier "(" ")" CompoundStmt;
 ArgList         ::= Arg

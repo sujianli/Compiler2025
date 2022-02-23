@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Compilers
-tagline: Principles of Compilers
-description: This course introduces the general aufbau principle and the basic implementation technique in compiler system.
+tagline: 欢迎选修编译原理！
+description: 本课程将介绍编译技术的基本原理和简易实现。
 author: Dawei Zhu (Forked and revised from Kevin Lin
 baseurl: '/Compiler2022' # the subpath of your site, e.g. /blog
 url: 'https://pku-tangent.github.io' # the base hostname & protocol for your site, e.g. http://example.com
