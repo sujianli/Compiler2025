@@ -16,7 +16,7 @@ description: Listing of course modules and topics.
 使用Windows系统或Mac系统来完成本lab都可以。
 
 ### Lex & Yacc
-Lex和Yacc是最流行的对目标语言进行词法分析和语法分析的工具。其详细使用说明可参考当前目录下的 [lex&yacc_manual.pdf](./assets/lex&yacc_manual.pdf) 文件。**注意**：由于lex和yacc是由c语言实现的，而在本次实习中我们统一使用Python语言，因此在实际操作中我们用python包PLY（见下）来实现同样的功能，对于lex和yacc的具体使用只需简单了解即可。
+Lex和Yacc是最流行的对目标语言进行词法分析和语法分析的工具。其详细使用说明可参考[lex&yacc_manual.pdf](./assets/lex&yacc_manual.pdf) 文件。**注意**：由于lex和yacc是由c语言实现的，而在本次实习中我们统一使用Python语言，因此在实际操作中我们用python包PLY（见下）来实现同样的功能，对于lex和yacc的具体使用只需简单了解即可。
 ### PLY
 Python包PLY提供了对Lex和Yacc的纯Python实现。本次实习推荐使用ply-3.11。其安装过程如下：
 1. 下载[ply-3.11.zip](./assets/ply-3.11.zip)
@@ -35,7 +35,7 @@ PLY包的详细使用说明参见[以下链接](https://www.dabeaz.com/ply/ply.h
 |  :----:  | :----:  |
 | 1+5-2+7  | 11 |
 | 3\*5+5\*9+60/2  | 90 |
-| 6*(5+7)+18/(4/2)*3  | 99 |
+| 6\*(5+7)+18/(4/2)\*3  | 99 |
 | (5+7)^(6/3)  | 144 |
 
 ### 评分标准
@@ -54,7 +54,7 @@ PLY包的详细使用说明参见[以下链接](https://www.dabeaz.com/ply/ply.h
 ### 文法描述
 下面给出简化C语言的完整语法，其中以大写字母开头的为非终结符，其它均为终结符。
 
-```ebnf
+~~~ebnf
 Function        ::= Type identifier "(" ArgList ")" CompoundStmt
                     | Type identifier "(" ")" CompoundStmt;
 ArgList         ::= Arg
@@ -97,7 +97,7 @@ Factor          ::= "(" Expr ")"
                     | "+" Factor
                     | identifier
                     | number;
-```
+~~~
 
 **相关说明**
 1. 数字可能是8进制（Oct）、10进制（Dec）、16进制（Hex）。其中8进制数以0开头，10进制数以1~9开头，16进制数以0x或0X开头。如：019(Oct) = 17(Dec) = 0x11(Hex)；-025(Oct) = -21(Dec) = -0x15(Hex)。

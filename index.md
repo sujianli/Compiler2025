@@ -4,7 +4,7 @@ title: 编译原理
 nav_exclude: true
 seo:
   type: Course
-  name: 编译原理
+  name: 编译原理 
 ---
 
 # {{ site.tagline }}
