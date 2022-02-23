@@ -63,6 +63,11 @@ defaults:
       type: assignments
     values:
       layout: assignment
+  - scope:
+      path: ''
+      type: labs
+    values:
+      layout: lab
 
 compress_html:
   clippings: all
