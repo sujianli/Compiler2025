@@ -3,9 +3,9 @@ title: 第1周 课程介绍
 ---
 
 Feb. 22
-: [编译程序概述](../assets/ppts/BY201202-01.pdf)
+: [编译程序概述](../assets/slides/BY201202-01.pdf)
 
 Feb. 25
-: [PL/0编译程序的实现](../assets/ppts/BY201202-02-1.pdf) [实习任务介绍](#) 
+: [PL/0编译程序的实现](../assets/slides/BY201202-02-1.pdf) [实习任务介绍](#) 
 
 
