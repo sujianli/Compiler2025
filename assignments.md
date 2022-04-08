@@ -4,7 +4,7 @@ title: Assignments
 description: Listing of course modules and topics.
 ---
 
-# Assignments
+# Assignments 
 
 {% for assignment in site.assignments %}
 {{ assignment }}
