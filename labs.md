@@ -25,10 +25,10 @@ Python包PLY提供了对Lex和Yacc的纯Python实现。本次实习推荐使用p
 4. 执行如下指令：python setup.py install
 5. 完成上述指令后，你可以通过 import ply.lex 等方式简单地判断是否安装成功。
 
-PLY包的详细使用说明参见[以下链接](https://www.dabeaz.com/ply/ply.html)。
+PLY包的详细使用说明参见[以下链接](https://github.com/dabeaz/ply)。
 ## Ⅱ） 实习1：简易计算器
 ### 任务描述
-借助PLY包实现一个简易的计算器，支持加减乘除、括号、幂运算。所有测试数据见[test_calc.zip](#)文件。
+借助PLY包实现一个简易的计算器，支持加减乘除、括号、幂运算。所有测试数据见[test_calc.zip](./assets/test_calc.zip)文件。
 ### 样例输入与输出
 
 |  输入   | 输出  |
