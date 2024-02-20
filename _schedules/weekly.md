@@ -19,17 +19,17 @@ timeline:
 schedule:
   - name: Monday
   - name: Tuesday
+  - name: Wednesday
     events:
       - name: Lecture
         start: 10:10 AM
         end: 12:00 PM
-        location: 文史楼 110
-  - name: Wednesday
+        location: 地学楼 307
   - name: Thursday
   - name: Friday
     events:
       - name: Lecture
         start: 10:10 AM
         end: 12:00 PM
-        location: 文史楼 110（单周）
+        location: 地学楼 307（单周）
 ---
