@@ -17,8 +17,8 @@ title: Compilers
 tagline: 欢迎选修编译原理！
 description: 本课程将介绍编译技术的基本原理和简易实现。
 author: Dawei Zhu (Forked and revised from Kevin Lin
-baseurl: '/Compiler2022' # the subpath of your site, e.g. /blog
-url: 'https://pku-tangent.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/Compiler2025' # the subpath of your site, e.g. /blog
+url: 'https://sujianli.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
